@@ -1,0 +1,12 @@
+<script>
+var x = 1;
+
+while (x <= 100) {
+  if(x % 3 || x % 5){
+    document.write((x % 3 ? "" : "Linio<br/>") + (x % 5 ? "" : "IT<br/>")|| x+"<br/>");
+  } else {
+    document.write((x % 15 ? "" : "Linianos<br/>") || x+"<br/>");
+  }
+  x++;
+}
+</script>
